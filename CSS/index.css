@@ -1,0 +1,21 @@
+
+body{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(38, 219, 219);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    color: rgb(216, 8, 8);
+    border: 10px;
+}
+
+
+      
