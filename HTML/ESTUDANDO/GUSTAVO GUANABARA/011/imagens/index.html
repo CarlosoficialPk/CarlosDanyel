@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia em html</title>
+</head>
+<body>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+
+      }      
+
+    </style>
+    <h1>imagens dinamica</h1>
+    <p>tente abrir esse site em varios dispositivo ou simplemente aumenta ou diminui o tamanho do seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto2.png" type="image/png">
+        <img src="foto3.png" alt="imagem flexivel">
+
+    </picture>
+
+    <iframe width="682" height="384" src="https://www.youtube.com/embed/cAgkwPWE4hU" title="Imagens que se adaptam sozinhas - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="300.webp" type="image/webp">
+        
+        <source media="(max-width: 1050px)" srcset="700.webp" type="image/webp">
+
+        <img src="1000.webp" alt="imagem flexivel">
+
+    </picture>
+
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="300.png" type="image/png">
+
+        <source media="(max-width: 950px)" srcset="700.png" type="image/png">
+
+        <img src="900.png" alt="img flexivel">
+
+    </picture>
+
+</body>
+</html>
